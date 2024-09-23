@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Registro de Usuario</h1>
+    <form>
+        <label for="nombre">Nombre y apellido:</label>
+        <input type="text" id="nombre" name="nombre" required><br>
+
+        <label for="Usuario">Nombre de usuario:</label>
+        <input type="text" id="Usuario" name="Usuario" required><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="nacimiento">Fecha de nacimiento:</label>
+        <input type="date" id="nacimiento" name="nacimiento" required><br>
+
+        <label for="domicilio">Domicilio:</label>
+        <input type="text" id="domicilio" name="domicilio" required><br>
+
+        <label>Perfil de usuario:</label><br>
+        <input type="radio" id="comprar" name="Acción" value="comprar" required>
+        <label for="comprar">Comprar</label><br>
+        <input type="radio" id="vender" name="Acción" value="vender" required>
+        <label for="vender">Vender</label><br>
+
+        <label for="intereses">Categorías de interés:</label><br>
+        <input type="checkbox" id="electro" name="intereses" value="Electro">
+        <label for="electro">Electro</label><br>
+        <input type="checkbox" id="moda" name="intereses" value="Moda">
+        <label for="moda">Moda</label><br>
+        <input type="checkbox" id="hogar" name="intereses" value="Hogar">
+        <label for="hogar">Hogar</label><br>
+        <input type="checkbox" id="jugueteria" name="intereses" value="Juguetería">
+        <label for="jugueteria">Juguetería</label><br>
+        <input type="checkbox" id="vida_sana" name="intereses" value="Vida Sana">
+        <label for="vida_sana">Vida Sana</label><br>
+
+        <label for="foto">Foto de usuario:</label>
+        <input type="file" id="foto" name="foto"><br>
+
+        <label for="contraseña">Contraseña:</label>
+        <input type="password" id="contraseña" name="contraseña" required><br>
+
+        <label for="confirm_contraseña">Confirmar contraseña:</label>
+        <input type="password" id="confirm_contraseña" name="confirm_contraseña" required><br>
+
+        <button type="submit">Enviar</button>
+        <button type="reset">Borrar</button>
+    </form>
+</body>
+</html>
